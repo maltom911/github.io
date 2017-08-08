@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://formspree.io/maltom911@gmail.com" method="POST">
+        <label for="name">Imię</label><br>
+        <input type="text" name= "name" id="name"><br>
+        <label for="surname">Nazwisko</label><br>
+        <input type="text" name="surname" id="surname"><br>
+        <label for="mail">E-mail</label><br>
+        <input type="email" name="mail" id="mail"><br>
+        <label for="telephone">Numer telefonu</label><br>
+        <input type="tel" name="telephone" id="telephone"><br>
+        <label for="city">Wybierz miasto:</label><br>
+        <select name="city" id="city">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select><br>
+        <div>Wybierz płeć:<br>
+            <input type="radio" name="gender" value="male" id="gender">
+            <label for="gender">Mężczyzna</label><br>
+            <input type="radio" name="gender" value="female">
+            <label for="gender">Kobieta</label><br>
+            <input type="radio" name="gender" value="other">
+            <label for="gender">Inna</label><br>
+        </div>
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">Wyrażam zgodę na przetwarzanie moich danych osobowych</label><br>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="wyślij"><br>
+    </form>
+</body>
+</html>
